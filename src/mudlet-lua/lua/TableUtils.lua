@@ -23,6 +23,18 @@ end
 --- Useful if you want to see what the capture groups contain i. e. the Lua table "matches".
 ---
 --- @see display
+
+function ciaranWasHere( arg )
+
+	echo("Things are happening!!!")
+
+end
+
+
+
+
+
+
 function printTable( map )
 	echo("-------------------------------------------------------\n");
 	for k, v in pairs( map ) do
